@@ -480,7 +480,7 @@ let payloadFailed = false;
 
 /* 改動 flex-cards.json 後請把 BUILD 往後跳一號：
    LINE 內建瀏覽器會快取檔案，不跳號會一直送出舊版卡片 */
-const BUILD = 'b41';
+const BUILD = 'b42';
 const PAGE_VER = '2026-10-09-1910-底部CTA改用flex-sticky'   // 每次改頁面就改這個，用來確認手機拿到的是最新版
 
 /* ═══════ FLEX_PAYLOAD_START（由 build_flex.py 自動寫入，勿手改）═══════ */
@@ -519,8 +519,7 @@ function diag(msg, bad){
   // 分享模式下網站內容是隱藏的，所以黑框要同步顯示在分享畫面上
   if(ssDiagEl){
     ssDiagEl.innerHTML += line;
-    // 出錯一律顯示（原本只有 ?debug=1 才顯示 → 失敗時使用者只看到空白）
-    if(DEBUG || bad) ssDiagEl.style.display = 'block';
+    // 只在 ?debug=1 時顯示（正常使用者不會看到 log；失敗時改用下方的大字提示）
   }
 }
 
@@ -554,7 +553,7 @@ function shareModeSelfCheck(){
          + '｜畫面高=' + window.innerHeight
          + '｜差=' + Math.round(window.innerHeight - r.bottom));
   }else{
-    diag('・找不到 .ss-bar（HTML 可能還是舊版）', true);
+    diag('・找不到 .ss-bar（HTML 可能還是舊版）');
   }
 
   if(liffReady){
