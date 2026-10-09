@@ -153,7 +153,7 @@
           "action": {
             "type": "uri",
             "label": "開啟名片",
-            "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/line-ecard-demo/flex-cards.json&v=2026-10-01-1200"
+            "uri": "https://liff.line.me/2011946176-a2549LFU?src=https://ericlin1994.github.io/line-ecard-demo/flex-cards.json&page=https://ericlin1994.github.io/line-ecard-demo/&v=2026-10-01-1200"
           }
         }
       },
@@ -1298,7 +1298,7 @@
           "action": {
             "type": "uri",
             "label": "開啟名片",
-            "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/line-ecard-demo/flex-cards.json&v=2026-10-01-1200"
+            "uri": "https://liff.line.me/2011946176-a2549LFU?src=https://ericlin1994.github.io/line-ecard-demo/flex-cards.json&page=https://ericlin1994.github.io/line-ecard-demo/&v=2026-10-01-1200"
           }
         }
       },
