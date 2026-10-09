@@ -1,0 +1,1444 @@
+{
+  "type": "flex",
+  "altText": "山丘咖啡｜王小明 Ming 電子名片",
+  "contents": {
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#253043"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "山丘咖啡　手沖單品・自家烘焙・甜點・場地租借",
+              "size": "xxs",
+              "weight": "regular",
+              "color": "#A0AAB8",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "📷 IG 作品",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "backgroundColor": "#253043",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "action": {
+                        "type": "uri",
+                        "label": "📷 IG 作品",
+                        "uri": "https://www.instagram.com/hillcafe_demo/"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "💬 LINE",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "backgroundColor": "#C4835A",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "action": {
+                        "type": "uri",
+                        "label": "💬 LINE",
+                        "uri": "https://line.me/R/ti/p/@hillcafe"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "📍 導航",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "backgroundColor": "#253043",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "action": {
+                        "type": "uri",
+                        "label": "📍 導航",
+                        "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
+                      }
+                    }
+                  ],
+                  "spacing": "sm"
+                }
+              ],
+              "spacing": "none",
+              "paddingAll": "10px",
+              "backgroundColor": "#F5F1E8",
+              "cornerRadius": "20px"
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "14px",
+          "backgroundColor": "#253043"
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://ericlin1994.github.io/line-ecard-demo/img/card1.jpg",
+          "size": "full",
+          "aspectRatio": "3:4",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/line-ecard-demo/flex-cards.json&v=2026-10-01-1200"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#253043"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "我們專為誰服務",
+              "size": "xl",
+              "weight": "bold",
+              "color": "#C4835A",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "上班族",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": false,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "8px",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#C4835A"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "學生",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": false,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "8px",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#C4835A"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "咖啡愛好者",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": false,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "8px",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#C4835A"
+                    }
+                  ],
+                  "spacing": "xs"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "自由工作者",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": false,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "8px",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#C4835A"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "情侶",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": false,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "8px",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#C4835A"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "親子",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": false,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "8px",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#C4835A"
+                    }
+                  ],
+                  "spacing": "xs"
+                }
+              ],
+              "spacing": "xs",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "你是不是也遇過這些問題？",
+                  "size": "xs",
+                  "weight": "bold",
+                  "color": "#253043",
+                  "wrap": true,
+                  "margin": "none"
+                },
+                {
+                  "type": "separator",
+                  "margin": "sm",
+                  "color": "#DCD4C5"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📌",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#C4835A",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "想喝好咖啡，卻不知道怎麼選豆",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#253043",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 6
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "sm"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📌",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#C4835A",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "連鎖店喝起來都一樣，沒有記憶點",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#253043",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 6
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "sm"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📌",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#C4835A",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "想找能久坐工作的安靜空間",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#253043",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 6
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "sm"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📌",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#C4835A",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "買了豆子回家，卻不知道怎麼沖",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#253043",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 6
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "sm"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📌",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#C4835A",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "想包場辦活動，不知道能不能配合",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#253043",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 6
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "sm"
+                }
+              ],
+              "spacing": "sm",
+              "margin": "md",
+              "paddingAll": "18px",
+              "backgroundColor": "#F5F1E8",
+              "cornerRadius": "20px"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "📷 IG 作品",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "backgroundColor": "#253043",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "action": {
+                        "type": "uri",
+                        "label": "📷 IG 作品",
+                        "uri": "https://www.instagram.com/hillcafe_demo/"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "💬 LINE",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "backgroundColor": "#C4835A",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "action": {
+                        "type": "uri",
+                        "label": "💬 LINE",
+                        "uri": "https://line.me/R/ti/p/@hillcafe"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "📍 導航",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "backgroundColor": "#253043",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "action": {
+                        "type": "uri",
+                        "label": "📍 導航",
+                        "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
+                      }
+                    }
+                  ],
+                  "spacing": "sm"
+                }
+              ],
+              "spacing": "none",
+              "paddingAll": "10px",
+              "backgroundColor": "#F5F1E8",
+              "cornerRadius": "20px"
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "18px",
+          "backgroundColor": "#253043"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#253043"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "我們能為你做什麼",
+              "size": "xl",
+              "weight": "bold",
+              "color": "#C4835A",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "text",
+              "text": "從設計規劃到現場施作，實現空間想像",
+              "size": "sm",
+              "weight": "regular",
+              "color": "#FFFFFF",
+              "wrap": true,
+              "margin": "xs"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "☕",
+                      "size": "md",
+                      "weight": "regular",
+                      "color": "#C4835A",
+                      "wrap": false,
+                      "margin": "none"
+                    },
+                    {
+                      "type": "text",
+                      "text": "手沖單品",
+                      "size": "sm",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": false,
+                      "margin": "sm"
+                    },
+                    {
+                      "type": "text",
+                      "text": "每日更換三個產區",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#A0AAB8",
+                      "wrap": true,
+                      "margin": "xs"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "16px",
+                  "backgroundColor": "#1E2838",
+                  "cornerRadius": "16px",
+                  "flex": 1
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "🔥",
+                      "size": "md",
+                      "weight": "regular",
+                      "color": "#C4835A",
+                      "wrap": false,
+                      "margin": "none"
+                    },
+                    {
+                      "type": "text",
+                      "text": "自家烘焙",
+                      "size": "sm",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": false,
+                      "margin": "sm"
+                    },
+                    {
+                      "type": "text",
+                      "text": "每週二五新鮮烘豆",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#A0AAB8",
+                      "wrap": true,
+                      "margin": "xs"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "16px",
+                  "backgroundColor": "#1E2838",
+                  "cornerRadius": "16px",
+                  "flex": 1
+                }
+              ],
+              "spacing": "md",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "🍰",
+                      "size": "md",
+                      "weight": "regular",
+                      "color": "#C4835A",
+                      "wrap": false,
+                      "margin": "none"
+                    },
+                    {
+                      "type": "text",
+                      "text": "甜點輕食",
+                      "size": "sm",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": false,
+                      "margin": "sm"
+                    },
+                    {
+                      "type": "text",
+                      "text": "與在地甜點工作室合作",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#A0AAB8",
+                      "wrap": true,
+                      "margin": "xs"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "16px",
+                  "backgroundColor": "#1E2838",
+                  "cornerRadius": "16px",
+                  "flex": 1
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "🏠",
+                      "size": "md",
+                      "weight": "regular",
+                      "color": "#C4835A",
+                      "wrap": false,
+                      "margin": "none"
+                    },
+                    {
+                      "type": "text",
+                      "text": "場地租借",
+                      "size": "sm",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": false,
+                      "margin": "sm"
+                    },
+                    {
+                      "type": "text",
+                      "text": "包場／活動／拍攝",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#A0AAB8",
+                      "wrap": true,
+                      "margin": "xs"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "16px",
+                  "backgroundColor": "#1E2838",
+                  "cornerRadius": "16px",
+                  "flex": 1
+                }
+              ],
+              "spacing": "md",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "📷 IG 作品",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "backgroundColor": "#253043",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "action": {
+                        "type": "uri",
+                        "label": "📷 IG 作品",
+                        "uri": "https://www.instagram.com/hillcafe_demo/"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "💬 LINE",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "backgroundColor": "#C4835A",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "action": {
+                        "type": "uri",
+                        "label": "💬 LINE",
+                        "uri": "https://line.me/R/ti/p/@hillcafe"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "📍 導航",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "backgroundColor": "#253043",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "action": {
+                        "type": "uri",
+                        "label": "📍 導航",
+                        "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
+                      }
+                    }
+                  ],
+                  "spacing": "sm"
+                }
+              ],
+              "spacing": "none",
+              "paddingAll": "10px",
+              "backgroundColor": "#F5F1E8",
+              "cornerRadius": "20px"
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "18px",
+          "backgroundColor": "#253043"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#253043"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "為什麼選擇山丘？",
+              "size": "xl",
+              "weight": "bold",
+              "color": "#C4835A",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "8",
+                  "size": "4xl",
+                  "weight": "bold",
+                  "color": "#C4835A",
+                  "wrap": false,
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "年咖啡烘豆\n經驗",
+                  "size": "sm",
+                  "weight": "bold",
+                  "color": "#FFFFFF",
+                  "wrap": true,
+                  "margin": "none",
+                  "flex": 3
+                }
+              ],
+              "spacing": "md",
+              "margin": "xl",
+              "alignItems": "center"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "3",
+                  "size": "4xl",
+                  "weight": "bold",
+                  "color": "#C4835A",
+                  "wrap": false,
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "每日更換\n單品產區",
+                  "size": "sm",
+                  "weight": "bold",
+                  "color": "#FFFFFF",
+                  "wrap": true,
+                  "margin": "none",
+                  "flex": 3
+                }
+              ],
+              "spacing": "md",
+              "margin": "md",
+              "alignItems": "center"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "200+",
+                  "size": "4xl",
+                  "weight": "bold",
+                  "color": "#C4835A",
+                  "wrap": false,
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "累積熟客\n會員數",
+                  "size": "sm",
+                  "weight": "bold",
+                  "color": "#FFFFFF",
+                  "wrap": true,
+                  "margin": "none",
+                  "flex": 3
+                }
+              ],
+              "spacing": "md",
+              "margin": "md",
+              "alignItems": "center"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "📷 IG 作品",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "backgroundColor": "#253043",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "action": {
+                        "type": "uri",
+                        "label": "📷 IG 作品",
+                        "uri": "https://www.instagram.com/hillcafe_demo/"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "💬 LINE",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "backgroundColor": "#C4835A",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "action": {
+                        "type": "uri",
+                        "label": "💬 LINE",
+                        "uri": "https://line.me/R/ti/p/@hillcafe"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "📍 導航",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "backgroundColor": "#253043",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "action": {
+                        "type": "uri",
+                        "label": "📍 導航",
+                        "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
+                      }
+                    }
+                  ],
+                  "spacing": "sm"
+                }
+              ],
+              "spacing": "none",
+              "paddingAll": "10px",
+              "backgroundColor": "#F5F1E8",
+              "cornerRadius": "20px"
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "18px",
+          "backgroundColor": "#253043"
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#253043"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "手沖工藝・產地選豆・新鮮烘焙・空間氛圍",
+              "size": "xxs",
+              "weight": "regular",
+              "color": "#A0AAB8",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "📷 IG 作品",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "backgroundColor": "#253043",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "action": {
+                        "type": "uri",
+                        "label": "📷 IG 作品",
+                        "uri": "https://www.instagram.com/hillcafe_demo/"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "💬 LINE",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "backgroundColor": "#C4835A",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "action": {
+                        "type": "uri",
+                        "label": "💬 LINE",
+                        "uri": "https://line.me/R/ti/p/@hillcafe"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "📍 導航",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "backgroundColor": "#253043",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "action": {
+                        "type": "uri",
+                        "label": "📍 導航",
+                        "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
+                      }
+                    }
+                  ],
+                  "spacing": "sm"
+                }
+              ],
+              "spacing": "none",
+              "paddingAll": "10px",
+              "backgroundColor": "#F5F1E8",
+              "cornerRadius": "20px"
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "14px",
+          "backgroundColor": "#253043"
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://ericlin1994.github.io/line-ecard-demo/img/card5.jpg",
+          "size": "full",
+          "aspectRatio": "3:4",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-a2549LFU?share=1&src=https://ericlin1994.github.io/line-ecard-demo/flex-cards.json&v=2026-10-01-1200"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#F5F1E8"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "歡迎來山丘坐坐",
+              "size": "xl",
+              "weight": "bold",
+              "color": "#253043",
+              "wrap": true,
+              "margin": "none"
+            },
+            {
+              "type": "text",
+              "text": "說說你喜歡的風味，LINE 傳給我推薦豆子",
+              "size": "xs",
+              "weight": "bold",
+              "color": "#C4835A",
+              "wrap": true,
+              "margin": "xs"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📞",
+                      "size": "sm",
+                      "weight": "regular",
+                      "color": "#C4835A",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "0912-345-678",
+                      "size": "sm",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 6
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "sm"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "💬",
+                      "size": "sm",
+                      "weight": "regular",
+                      "color": "#C4835A",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "LINE：@hillcafe",
+                      "size": "sm",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 6
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "sm"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📍",
+                      "size": "sm",
+                      "weight": "regular",
+                      "color": "#C4835A",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "台北市大安區永康街12號（捷運東門站 5 號出口）",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 6
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "sm"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "⏰",
+                      "size": "sm",
+                      "weight": "regular",
+                      "color": "#C4835A",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "週二～日 10:00-19:00（週一休）",
+                      "size": "xs",
+                      "weight": "regular",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 6
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "sm"
+                }
+              ],
+              "spacing": "sm",
+              "margin": "md",
+              "paddingAll": "18px",
+              "backgroundColor": "#253043",
+              "cornerRadius": "20px"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "📷 IG 作品",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "backgroundColor": "#253043",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "action": {
+                        "type": "uri",
+                        "label": "📷 IG 作品",
+                        "uri": "https://www.instagram.com/hillcafe_demo/"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "💬 LINE",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "backgroundColor": "#C4835A",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "action": {
+                        "type": "uri",
+                        "label": "💬 LINE",
+                        "uri": "https://line.me/R/ti/p/@hillcafe"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "📍 導航",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "none",
+                      "paddingAll": "10px",
+                      "backgroundColor": "#253043",
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "action": {
+                        "type": "uri",
+                        "label": "📍 導航",
+                        "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
+                      }
+                    }
+                  ],
+                  "spacing": "sm"
+                }
+              ],
+              "spacing": "none",
+              "paddingAll": "10px",
+              "backgroundColor": "#F5F1E8",
+              "cornerRadius": "20px"
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "18px",
+          "backgroundColor": "#F5F1E8"
+        }
+      }
+    ]
+  }
+}
