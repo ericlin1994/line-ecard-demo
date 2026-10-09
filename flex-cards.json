@@ -10,6 +10,9 @@
         "styles": {
           "body": {
             "backgroundColor": "#253043"
+          },
+          "footer": {
+            "backgroundColor": "#F5F1E8"
           }
         },
         "body": {
@@ -24,103 +27,122 @@
               "color": "#A0AAB8",
               "wrap": true,
               "margin": "none"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "📷 IG 作品",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": true,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "10px",
-                      "backgroundColor": "#253043",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "action": {
-                        "type": "uri",
-                        "label": "📷 IG 作品",
-                        "uri": "https://www.instagram.com/hillcafe_demo/"
-                      }
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "💬 LINE",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": true,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "10px",
-                      "backgroundColor": "#C4835A",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "action": {
-                        "type": "uri",
-                        "label": "💬 LINE",
-                        "uri": "https://line.me/R/ti/p/@hillcafe"
-                      }
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "📍 導航",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": true,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "10px",
-                      "backgroundColor": "#253043",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "action": {
-                        "type": "uri",
-                        "label": "📍 導航",
-                        "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
-                      }
-                    }
-                  ],
-                  "spacing": "sm"
-                }
-              ],
-              "spacing": "none",
-              "paddingAll": "10px",
-              "backgroundColor": "#F5F1E8",
-              "cornerRadius": "20px"
             }
           ],
           "spacing": "md",
           "paddingAll": "14px",
           "backgroundColor": "#253043"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📷 IG 作品",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#485161",
+                    "endColor": "#1D2534"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#5E6674",
+                  "action": {
+                    "type": "uri",
+                    "label": "📷 IG 作品",
+                    "uri": "https://www.instagram.com/hillcafe_demo/"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "💬 LINE",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#CD9774",
+                    "endColor": "#996646"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#D3A385",
+                  "action": {
+                    "type": "uri",
+                    "label": "💬 LINE",
+                    "uri": "https://line.me/R/ti/p/@hillcafe"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📍 導航",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#485161",
+                    "endColor": "#1D2534"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#5E6674",
+                  "action": {
+                    "type": "uri",
+                    "label": "📍 導航",
+                    "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "10px"
         },
         "hero": {
           "type": "image",
@@ -141,6 +163,9 @@
         "styles": {
           "body": {
             "backgroundColor": "#253043"
+          },
+          "footer": {
+            "backgroundColor": "#F5F1E8"
           }
         },
         "body": {
@@ -463,103 +488,122 @@
               "paddingAll": "18px",
               "backgroundColor": "#F5F1E8",
               "cornerRadius": "20px"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "📷 IG 作品",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": true,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "10px",
-                      "backgroundColor": "#253043",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "action": {
-                        "type": "uri",
-                        "label": "📷 IG 作品",
-                        "uri": "https://www.instagram.com/hillcafe_demo/"
-                      }
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "💬 LINE",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": true,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "10px",
-                      "backgroundColor": "#C4835A",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "action": {
-                        "type": "uri",
-                        "label": "💬 LINE",
-                        "uri": "https://line.me/R/ti/p/@hillcafe"
-                      }
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "📍 導航",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": true,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "10px",
-                      "backgroundColor": "#253043",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "action": {
-                        "type": "uri",
-                        "label": "📍 導航",
-                        "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
-                      }
-                    }
-                  ],
-                  "spacing": "sm"
-                }
-              ],
-              "spacing": "none",
-              "paddingAll": "10px",
-              "backgroundColor": "#F5F1E8",
-              "cornerRadius": "20px"
             }
           ],
           "spacing": "md",
           "paddingAll": "18px",
           "backgroundColor": "#253043"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📷 IG 作品",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#485161",
+                    "endColor": "#1D2534"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#5E6674",
+                  "action": {
+                    "type": "uri",
+                    "label": "📷 IG 作品",
+                    "uri": "https://www.instagram.com/hillcafe_demo/"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "💬 LINE",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#CD9774",
+                    "endColor": "#996646"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#D3A385",
+                  "action": {
+                    "type": "uri",
+                    "label": "💬 LINE",
+                    "uri": "https://line.me/R/ti/p/@hillcafe"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📍 導航",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#485161",
+                    "endColor": "#1D2534"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#5E6674",
+                  "action": {
+                    "type": "uri",
+                    "label": "📍 導航",
+                    "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "10px"
         }
       },
       {
@@ -568,6 +612,9 @@
         "styles": {
           "body": {
             "backgroundColor": "#253043"
+          },
+          "footer": {
+            "backgroundColor": "#F5F1E8"
           }
         },
         "body": {
@@ -759,103 +806,122 @@
               ],
               "spacing": "md",
               "margin": "md"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "📷 IG 作品",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": true,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "10px",
-                      "backgroundColor": "#253043",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "action": {
-                        "type": "uri",
-                        "label": "📷 IG 作品",
-                        "uri": "https://www.instagram.com/hillcafe_demo/"
-                      }
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "💬 LINE",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": true,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "10px",
-                      "backgroundColor": "#C4835A",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "action": {
-                        "type": "uri",
-                        "label": "💬 LINE",
-                        "uri": "https://line.me/R/ti/p/@hillcafe"
-                      }
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "📍 導航",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": true,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "10px",
-                      "backgroundColor": "#253043",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "action": {
-                        "type": "uri",
-                        "label": "📍 導航",
-                        "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
-                      }
-                    }
-                  ],
-                  "spacing": "sm"
-                }
-              ],
-              "spacing": "none",
-              "paddingAll": "10px",
-              "backgroundColor": "#F5F1E8",
-              "cornerRadius": "20px"
             }
           ],
           "spacing": "md",
           "paddingAll": "18px",
           "backgroundColor": "#253043"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📷 IG 作品",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#485161",
+                    "endColor": "#1D2534"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#5E6674",
+                  "action": {
+                    "type": "uri",
+                    "label": "📷 IG 作品",
+                    "uri": "https://www.instagram.com/hillcafe_demo/"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "💬 LINE",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#CD9774",
+                    "endColor": "#996646"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#D3A385",
+                  "action": {
+                    "type": "uri",
+                    "label": "💬 LINE",
+                    "uri": "https://line.me/R/ti/p/@hillcafe"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📍 導航",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#485161",
+                    "endColor": "#1D2534"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#5E6674",
+                  "action": {
+                    "type": "uri",
+                    "label": "📍 導航",
+                    "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "10px"
         }
       },
       {
@@ -864,6 +930,9 @@
         "styles": {
           "body": {
             "backgroundColor": "#253043"
+          },
+          "footer": {
+            "backgroundColor": "#F5F1E8"
           }
         },
         "body": {
@@ -962,103 +1031,122 @@
               "spacing": "md",
               "margin": "md",
               "alignItems": "center"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "📷 IG 作品",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": true,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "10px",
-                      "backgroundColor": "#253043",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "action": {
-                        "type": "uri",
-                        "label": "📷 IG 作品",
-                        "uri": "https://www.instagram.com/hillcafe_demo/"
-                      }
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "💬 LINE",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": true,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "10px",
-                      "backgroundColor": "#C4835A",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "action": {
-                        "type": "uri",
-                        "label": "💬 LINE",
-                        "uri": "https://line.me/R/ti/p/@hillcafe"
-                      }
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "📍 導航",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": true,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "10px",
-                      "backgroundColor": "#253043",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "action": {
-                        "type": "uri",
-                        "label": "📍 導航",
-                        "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
-                      }
-                    }
-                  ],
-                  "spacing": "sm"
-                }
-              ],
-              "spacing": "none",
-              "paddingAll": "10px",
-              "backgroundColor": "#F5F1E8",
-              "cornerRadius": "20px"
             }
           ],
           "spacing": "md",
           "paddingAll": "18px",
           "backgroundColor": "#253043"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📷 IG 作品",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#485161",
+                    "endColor": "#1D2534"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#5E6674",
+                  "action": {
+                    "type": "uri",
+                    "label": "📷 IG 作品",
+                    "uri": "https://www.instagram.com/hillcafe_demo/"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "💬 LINE",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#CD9774",
+                    "endColor": "#996646"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#D3A385",
+                  "action": {
+                    "type": "uri",
+                    "label": "💬 LINE",
+                    "uri": "https://line.me/R/ti/p/@hillcafe"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📍 導航",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#485161",
+                    "endColor": "#1D2534"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#5E6674",
+                  "action": {
+                    "type": "uri",
+                    "label": "📍 導航",
+                    "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "10px"
         }
       },
       {
@@ -1067,6 +1155,9 @@
         "styles": {
           "body": {
             "backgroundColor": "#253043"
+          },
+          "footer": {
+            "backgroundColor": "#F5F1E8"
           }
         },
         "body": {
@@ -1081,103 +1172,122 @@
               "color": "#A0AAB8",
               "wrap": true,
               "margin": "none"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "📷 IG 作品",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": true,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "10px",
-                      "backgroundColor": "#253043",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "action": {
-                        "type": "uri",
-                        "label": "📷 IG 作品",
-                        "uri": "https://www.instagram.com/hillcafe_demo/"
-                      }
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "💬 LINE",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": true,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "10px",
-                      "backgroundColor": "#C4835A",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "action": {
-                        "type": "uri",
-                        "label": "💬 LINE",
-                        "uri": "https://line.me/R/ti/p/@hillcafe"
-                      }
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "📍 導航",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": true,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "10px",
-                      "backgroundColor": "#253043",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "action": {
-                        "type": "uri",
-                        "label": "📍 導航",
-                        "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
-                      }
-                    }
-                  ],
-                  "spacing": "sm"
-                }
-              ],
-              "spacing": "none",
-              "paddingAll": "10px",
-              "backgroundColor": "#F5F1E8",
-              "cornerRadius": "20px"
             }
           ],
           "spacing": "md",
           "paddingAll": "14px",
           "backgroundColor": "#253043"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📷 IG 作品",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#485161",
+                    "endColor": "#1D2534"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#5E6674",
+                  "action": {
+                    "type": "uri",
+                    "label": "📷 IG 作品",
+                    "uri": "https://www.instagram.com/hillcafe_demo/"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "💬 LINE",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#CD9774",
+                    "endColor": "#996646"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#D3A385",
+                  "action": {
+                    "type": "uri",
+                    "label": "💬 LINE",
+                    "uri": "https://line.me/R/ti/p/@hillcafe"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📍 導航",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#485161",
+                    "endColor": "#1D2534"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#5E6674",
+                  "action": {
+                    "type": "uri",
+                    "label": "📍 導航",
+                    "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "10px"
         },
         "hero": {
           "type": "image",
@@ -1198,6 +1308,9 @@
         "styles": {
           "body": {
             "backgroundColor": "#F5F1E8"
+          },
+          "footer": {
+            "backgroundColor": "#FFFFFF"
           }
         },
         "body": {
@@ -1340,103 +1453,122 @@
               "paddingAll": "18px",
               "backgroundColor": "#253043",
               "cornerRadius": "20px"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "📷 IG 作品",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": true,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "10px",
-                      "backgroundColor": "#253043",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "action": {
-                        "type": "uri",
-                        "label": "📷 IG 作品",
-                        "uri": "https://www.instagram.com/hillcafe_demo/"
-                      }
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "💬 LINE",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": true,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "10px",
-                      "backgroundColor": "#C4835A",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "action": {
-                        "type": "uri",
-                        "label": "💬 LINE",
-                        "uri": "https://line.me/R/ti/p/@hillcafe"
-                      }
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "📍 導航",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": true,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "10px",
-                      "backgroundColor": "#253043",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "action": {
-                        "type": "uri",
-                        "label": "📍 導航",
-                        "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
-                      }
-                    }
-                  ],
-                  "spacing": "sm"
-                }
-              ],
-              "spacing": "none",
-              "paddingAll": "10px",
-              "backgroundColor": "#F5F1E8",
-              "cornerRadius": "20px"
             }
           ],
           "spacing": "md",
           "paddingAll": "18px",
           "backgroundColor": "#F5F1E8"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📷 IG 作品",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#485161",
+                    "endColor": "#1D2534"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#5E6674",
+                  "action": {
+                    "type": "uri",
+                    "label": "📷 IG 作品",
+                    "uri": "https://www.instagram.com/hillcafe_demo/"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "💬 LINE",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#CD9774",
+                    "endColor": "#996646"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#D3A385",
+                  "action": {
+                    "type": "uri",
+                    "label": "💬 LINE",
+                    "uri": "https://line.me/R/ti/p/@hillcafe"
+                  }
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📍 導航",
+                      "size": "xxs",
+                      "weight": "bold",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "align": "center"
+                    }
+                  ],
+                  "spacing": "none",
+                  "paddingAll": "10px",
+                  "background": {
+                    "type": "linearGradient",
+                    "angle": "90deg",
+                    "startColor": "#485161",
+                    "endColor": "#1D2534"
+                  },
+                  "cornerRadius": "100px",
+                  "flex": 1,
+                  "borderWidth": "1px",
+                  "borderColor": "#5E6674",
+                  "action": {
+                    "type": "uri",
+                    "label": "📍 導航",
+                    "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
+                  }
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "none",
+          "paddingAll": "10px"
         }
       }
     ]
