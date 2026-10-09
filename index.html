@@ -480,7 +480,7 @@ let payloadFailed = false;
 
 /* 改動 flex-cards.json 後請把 BUILD 往後跳一號：
    LINE 內建瀏覽器會快取檔案，不跳號會一直送出舊版卡片 */
-const BUILD = 'b37';
+const BUILD = 'b38';
 const PAGE_VER = '2026-10-09-1910-底部CTA改用flex-sticky'   // 每次改頁面就改這個，用來確認手機拿到的是最新版
 
 /* ═══════ FLEX_PAYLOAD_START（由 build_flex.py 自動寫入，勿手改）═══════ */
@@ -543,6 +543,19 @@ function shareModeSelfCheck(){
   diag('・取到的 src：' + (src || '（無）'));
   diag('・LIFF_ID：' + LIFF_ID);
   diag('・LINE 版本：' + ((navigator.userAgent.match(/Line\/[\d.]+/) || ['（不在 LINE 內）'])[0]));
+
+  // 按鈕實際落點：用來判斷「有沒有固定在畫面底部」
+  const bar = document.querySelector('#shareScreen .ss-bar');
+  if(bar){
+    const r = bar.getBoundingClientRect();
+    const cs = getComputedStyle(bar);
+    diag('・CTA 條：position=' + cs.position
+         + '｜top=' + Math.round(r.top) + '｜bottom=' + Math.round(r.bottom)
+         + '｜畫面高=' + window.innerHeight
+         + '｜差=' + Math.round(window.innerHeight - r.bottom));
+  }else{
+    diag('・找不到 .ss-bar（HTML 可能還是舊版）', true);
+  }
 
   if(liffReady){
     diag('（LIFF 已就緒，可直接按下方按鈕）');
