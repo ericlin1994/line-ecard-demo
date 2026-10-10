@@ -47,7 +47,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "📷 IG 作品",
+                      "text": "📖 說明",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -69,8 +69,8 @@
                   "borderColor": "#5E6674",
                   "action": {
                     "type": "uri",
-                    "label": "📷 IG 作品",
-                    "uri": "https://www.instagram.com/hillcafe_demo/"
+                    "label": "📖 說明",
+                    "uri": "https://ericlin1994.github.io/line-ecard/"
                   }
                 },
                 {
@@ -79,7 +79,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "💬 LINE",
+                      "text": "💬 聯絡我",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -101,8 +101,8 @@
                   "borderColor": "#D3A385",
                   "action": {
                     "type": "uri",
-                    "label": "💬 LINE",
-                    "uri": "https://line.me/R/ti/p/@hillcafe"
+                    "label": "💬 聯絡我",
+                    "uri": "https://portaly.cc/ericlin92269"
                   }
                 },
                 {
@@ -111,7 +111,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "📍 導航",
+                      "text": "🛒 購買",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -133,8 +133,8 @@
                   "borderColor": "#5E6674",
                   "action": {
                     "type": "uri",
-                    "label": "📍 導航",
-                    "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
+                    "label": "🛒 購買",
+                    "uri": "https://ericlin1994.github.io/line-ecard/#buy"
                   }
                 }
               ],
@@ -508,7 +508,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "📷 IG 作品",
+                      "text": "📖 說明",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -530,8 +530,8 @@
                   "borderColor": "#5E6674",
                   "action": {
                     "type": "uri",
-                    "label": "📷 IG 作品",
-                    "uri": "https://www.instagram.com/hillcafe_demo/"
+                    "label": "📖 說明",
+                    "uri": "https://ericlin1994.github.io/line-ecard/"
                   }
                 },
                 {
@@ -540,7 +540,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "💬 LINE",
+                      "text": "💬 聯絡我",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -562,8 +562,8 @@
                   "borderColor": "#D3A385",
                   "action": {
                     "type": "uri",
-                    "label": "💬 LINE",
-                    "uri": "https://line.me/R/ti/p/@hillcafe"
+                    "label": "💬 聯絡我",
+                    "uri": "https://portaly.cc/ericlin92269"
                   }
                 },
                 {
@@ -572,7 +572,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "📍 導航",
+                      "text": "🛒 購買",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -594,8 +594,8 @@
                   "borderColor": "#5E6674",
                   "action": {
                     "type": "uri",
-                    "label": "📍 導航",
-                    "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
+                    "label": "🛒 購買",
+                    "uri": "https://ericlin1994.github.io/line-ecard/#buy"
                   }
                 }
               ],
@@ -826,7 +826,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "📷 IG 作品",
+                      "text": "📖 說明",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -848,8 +848,8 @@
                   "borderColor": "#5E6674",
                   "action": {
                     "type": "uri",
-                    "label": "📷 IG 作品",
-                    "uri": "https://www.instagram.com/hillcafe_demo/"
+                    "label": "📖 說明",
+                    "uri": "https://ericlin1994.github.io/line-ecard/"
                   }
                 },
                 {
@@ -858,7 +858,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "💬 LINE",
+                      "text": "💬 聯絡我",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -880,8 +880,8 @@
                   "borderColor": "#D3A385",
                   "action": {
                     "type": "uri",
-                    "label": "💬 LINE",
-                    "uri": "https://line.me/R/ti/p/@hillcafe"
+                    "label": "💬 聯絡我",
+                    "uri": "https://portaly.cc/ericlin92269"
                   }
                 },
                 {
@@ -890,7 +890,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "📍 導航",
+                      "text": "🛒 購買",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -912,8 +912,8 @@
                   "borderColor": "#5E6674",
                   "action": {
                     "type": "uri",
-                    "label": "📍 導航",
-                    "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
+                    "label": "🛒 購買",
+                    "uri": "https://ericlin1994.github.io/line-ecard/#buy"
                   }
                 }
               ],
@@ -1051,7 +1051,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "📷 IG 作品",
+                      "text": "📖 說明",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -1073,8 +1073,8 @@
                   "borderColor": "#5E6674",
                   "action": {
                     "type": "uri",
-                    "label": "📷 IG 作品",
-                    "uri": "https://www.instagram.com/hillcafe_demo/"
+                    "label": "📖 說明",
+                    "uri": "https://ericlin1994.github.io/line-ecard/"
                   }
                 },
                 {
@@ -1083,7 +1083,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "💬 LINE",
+                      "text": "💬 聯絡我",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -1105,8 +1105,8 @@
                   "borderColor": "#D3A385",
                   "action": {
                     "type": "uri",
-                    "label": "💬 LINE",
-                    "uri": "https://line.me/R/ti/p/@hillcafe"
+                    "label": "💬 聯絡我",
+                    "uri": "https://portaly.cc/ericlin92269"
                   }
                 },
                 {
@@ -1115,7 +1115,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "📍 導航",
+                      "text": "🛒 購買",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -1137,8 +1137,8 @@
                   "borderColor": "#5E6674",
                   "action": {
                     "type": "uri",
-                    "label": "📍 導航",
-                    "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
+                    "label": "🛒 購買",
+                    "uri": "https://ericlin1994.github.io/line-ecard/#buy"
                   }
                 }
               ],
@@ -1192,7 +1192,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "📷 IG 作品",
+                      "text": "📖 說明",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -1214,8 +1214,8 @@
                   "borderColor": "#5E6674",
                   "action": {
                     "type": "uri",
-                    "label": "📷 IG 作品",
-                    "uri": "https://www.instagram.com/hillcafe_demo/"
+                    "label": "📖 說明",
+                    "uri": "https://ericlin1994.github.io/line-ecard/"
                   }
                 },
                 {
@@ -1224,7 +1224,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "💬 LINE",
+                      "text": "💬 聯絡我",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -1246,8 +1246,8 @@
                   "borderColor": "#D3A385",
                   "action": {
                     "type": "uri",
-                    "label": "💬 LINE",
-                    "uri": "https://line.me/R/ti/p/@hillcafe"
+                    "label": "💬 聯絡我",
+                    "uri": "https://portaly.cc/ericlin92269"
                   }
                 },
                 {
@@ -1256,7 +1256,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "📍 導航",
+                      "text": "🛒 購買",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -1278,8 +1278,8 @@
                   "borderColor": "#5E6674",
                   "action": {
                     "type": "uri",
-                    "label": "📍 導航",
-                    "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
+                    "label": "🛒 購買",
+                    "uri": "https://ericlin1994.github.io/line-ecard/#buy"
                   }
                 }
               ],
@@ -1473,7 +1473,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "📷 IG 作品",
+                      "text": "📖 說明",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -1495,8 +1495,8 @@
                   "borderColor": "#5E6674",
                   "action": {
                     "type": "uri",
-                    "label": "📷 IG 作品",
-                    "uri": "https://www.instagram.com/hillcafe_demo/"
+                    "label": "📖 說明",
+                    "uri": "https://ericlin1994.github.io/line-ecard/"
                   }
                 },
                 {
@@ -1505,7 +1505,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "💬 LINE",
+                      "text": "💬 聯絡我",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -1527,8 +1527,8 @@
                   "borderColor": "#D3A385",
                   "action": {
                     "type": "uri",
-                    "label": "💬 LINE",
-                    "uri": "https://line.me/R/ti/p/@hillcafe"
+                    "label": "💬 聯絡我",
+                    "uri": "https://portaly.cc/ericlin92269"
                   }
                 },
                 {
@@ -1537,7 +1537,7 @@
                   "contents": [
                     {
                       "type": "text",
-                      "text": "📍 導航",
+                      "text": "🛒 購買",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -1559,8 +1559,8 @@
                   "borderColor": "#5E6674",
                   "action": {
                     "type": "uri",
-                    "label": "📍 導航",
-                    "uri": "https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E4%B8%98%E5%92%96%E5%95%A1%20%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%B0%B8%E5%BA%B7%E8%A1%9712%E8%99%9F"
+                    "label": "🛒 購買",
+                    "uri": "https://ericlin1994.github.io/line-ecard/#buy"
                   }
                 }
               ],
