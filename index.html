@@ -26,8 +26,11 @@
 <style>
   :root{
     --navy:#253043; --navy-2:#1E2838; --navy-3:#33415C;
-    --brown:#C4835A; --gold:#C4835A; --gold-2:#DFA77C;
-    --ink:#253043; --paper:#F5F1E8; --muted:#6B7280; --red:#B4462F;
+    /* 品牌棕金：文字／小色塊用深一階的 #8A5227（對冷白底 5.9:1、對白底 6.3:1），亮棕 #C4835A 只留給深色底 */
+    --brown:#8A5227; --gold:#C4835A; --gold-2:#DFA77C;
+    /* 頁面底色刻意選冷調紙白 #F6F7F9（色相偏藍灰）：與品牌深藍 #253043 同色系，
+       讓暖棕金成為唯一的暖色重點；不用暖米色，避免像未經挑選的預設值 */
+    --ink:#253043; --paper:#F6F7F9; --muted:#5F6672; --red:#B4462F;
     --radius:20px;
     /* TODO C: 官網 / LINE / IG / FB 連結集中在頁面最下方 JS 的 LINKS 物件，改那裡就好 */
   }
@@ -68,18 +71,17 @@
        padding:12px 5px;border-radius:14px;text-decoration:none;font-size:12.5px;font-weight:700;
        color:#fff;background:linear-gradient(180deg,var(--navy-3),var(--navy-2));
        border:1px solid rgba(255,255,255,.16);letter-spacing:.03em;
-       /* 立體：硬邊厚度 + 內上緣高光 + 柔散陰影 */
-       box-shadow:0 4px 0 rgba(12,20,34,.55), 0 8px 16px rgba(22,35,61,.20),
-                  inset 0 1px 0 rgba(255,255,255,.20);
+       /* 立體：硬邊厚度 + 內上緣高光（深底上不放彩色柔光暈） */
+       box-shadow:0 4px 0 rgba(12,20,34,.55), inset 0 1px 0 rgba(255,255,255,.20);
        transform:translateY(0);
        transition:transform .07s ease, box-shadow .07s ease, filter .12s ease}
   .btn:active,.btn.is-pressed{
        transform:translateY(4px);
-       box-shadow:0 1px 0 rgba(12,20,34,.5), 0 3px 8px rgba(22,35,61,.16),
-                  inset 0 1px 0 rgba(255,255,255,.14);
+       box-shadow:0 1px 0 rgba(12,20,34,.5), inset 0 1px 0 rgba(255,255,255,.14);
        filter:brightness(1.08)}
   .btn .ic{font-size:18px;line-height:1}
-  .btn.line{background:linear-gradient(180deg,#B87A47,var(--brown))}
+  /* 白字要 ≥4.5:1：漸層兩端都用深棕（#A0643A 4.8:1 → #8A5227 6.3:1） */
+  .btn.line{background:linear-gradient(180deg,#A0643A,var(--brown))}
   .btn.tel{background:linear-gradient(180deg,#2E4675,var(--navy-2))}
 
   /* ── 區塊標題 ── */
@@ -90,18 +92,20 @@
   .rail{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 20px 16px;scrollbar-width:none}
   .rail::-webkit-scrollbar{display:none}
   .card{flex:0 0 86%;scroll-snap-align:center;background:#fff;border-radius:var(--radius);
-        padding:20px 18px;box-shadow:0 6px 22px rgba(22,35,61,.10);border:1px solid rgba(22,35,61,.06)}
-  .card h3{margin:0 0 4px;font-size:19px;color:var(--navy);letter-spacing:.02em;line-height:1.5}
-  .card h3 em{font-style:normal;color:var(--brown)}
+        padding:20px 18px;border:1px solid rgba(37,48,67,.12)}
+  /* 卡片標題接在 h1 後面，用 h2（原本跳級到 h3） */
+  .card h2{margin:0 0 4px;font-size:19px;color:var(--navy);letter-spacing:.02em;line-height:1.5}
+  .card h2 em{font-style:normal;color:var(--brown)}
   .card .sub{margin:0 0 14px;font-size:13.5px;color:var(--muted)}
   .card p{margin:0 0 10px;font-size:14.5px;color:#3C4658}
 
   .grid6{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0 4px}
-  .grid6 div{background:#F1EDE4;border:1px solid rgba(22,35,61,.08);border-radius:12px;
+  /* 卡片裡的內層區塊不再做成小卡：只用底色或分隔線分組，避免卡中卡 */
+  .grid6 div{background:#ECEFF3;border-radius:12px;
              padding:10px 4px;text-align:center;font-size:13px;font-weight:700;color:var(--navy)}
   .grid6 div span{display:block;font-size:16px;margin-bottom:3px}
 
-  .box{background:#F7F4EE;border:1px dashed rgba(22,35,61,.18);border-radius:14px;padding:14px;margin-top:12px}
+  .box{border-top:1px solid rgba(37,48,67,.14);padding:14px 2px 0;margin-top:14px}
   .box .bt{font-size:12.5px;font-weight:800;color:var(--brown);letter-spacing:.1em;margin-bottom:8px;text-align:center}
   .box ul{margin:0;padding:0;list-style:none}
   .box li{position:relative;padding-left:22px;font-size:14px;color:#3C4658;margin-bottom:8px}
@@ -112,11 +116,12 @@
         font-size:13.5px;text-align:center;font-weight:700;letter-spacing:.03em}
 
   /* 三大服務 */
-  .svc{display:flex;gap:12px;align-items:flex-start;padding:13px 0;border-bottom:1px dashed rgba(22,35,61,.12)}
-  .svc:last-child{border-bottom:0;padding-bottom:0}
-  .svc .ico{flex:0 0 40px;height:40px;border-radius:12px;background:#F1EDE4;display:flex;
+  /* 每一列都留底部內距，內容不貼著分隔線 */
+  .svc{display:flex;gap:12px;align-items:flex-start;padding:14px 0;border-bottom:1px dashed rgba(37,48,67,.14)}
+  .svc:last-child{border-bottom:0;padding-bottom:6px}
+  .svc .ico{flex:0 0 40px;height:40px;border-radius:12px;background:#ECEFF3;display:flex;
             align-items:center;justify-content:center;font-size:19px}
-  .svc h4{margin:0 0 2px;font-size:16px;color:var(--navy)}
+  .svc h3{margin:0 0 2px;font-size:16px;color:var(--navy)}
   .svc .tagsm{font-size:12px;color:var(--brown);font-weight:700;letter-spacing:.06em;margin-bottom:4px}
   .svc p{margin:0;font-size:13.5px;color:#4A5468;line-height:1.65}
 
@@ -134,20 +139,20 @@
 
   /* 2x2 工藝 */
   .craft{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:6px}
-  .craft figure{margin:0;background:#F7F4EE;border-radius:14px;overflow:hidden;border:1px solid rgba(22,35,61,.07)}
-  .craft .ph{aspect-ratio:4/3;background:repeating-linear-gradient(45deg,#EDE7DB,#EDE7DB 8px,#F5F1EA 8px,#F5F1EA 16px);
-             display:flex;align-items:center;justify-content:center;font-size:11px;color:#9AA1AE;letter-spacing:.1em}
-  .craft img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
-  .craft figcaption{padding:10px 11px 12px}
-  .craft h4{margin:0 0 3px;font-size:14.5px;color:var(--navy)}
+  .craft figure{margin:0;border-radius:14px;overflow:hidden}
+  .craft .ph{aspect-ratio:4/3;background:repeating-linear-gradient(45deg,#E8EBF0,#E8EBF0 8px,#F1F3F6 8px,#F1F3F6 16px);
+             display:flex;align-items:center;justify-content:center;font-size:11px;color:#5F6672;letter-spacing:.1em}
+  .craft img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;border-radius:14px}
+  .craft figcaption{padding:10px 2px 4px}
+  .craft h3{margin:0 0 3px;font-size:14.5px;color:var(--navy)}
   .craft p{margin:0;font-size:12px;color:#5A6478;line-height:1.6}
 
   /* Google 評論 */
   .rev{display:flex;gap:11px;padding:12px 0;border-bottom:1px dashed rgba(22,35,61,.12)}
   .rev:last-of-type{border-bottom:0}
-  .rev .pic{flex:0 0 74px;width:74px;height:74px;border-radius:10px;overflow:hidden;background:#EDE7DB}
+  .rev .pic{flex:0 0 74px;width:74px;height:74px;border-radius:10px;overflow:hidden;background:#E8EBF0}
   .rev .pic img{width:100%;height:100%;object-fit:cover;display:block}
-  .rev .pic.ph{display:flex;align-items:center;justify-content:center;font-size:10px;color:#9AA1AE;text-align:center;padding:4px}
+  .rev .pic.ph{display:flex;align-items:center;justify-content:center;font-size:10px;color:#5F6672;text-align:center;padding:4px}
   .rev .who{font-size:13px;font-weight:800;color:var(--navy)}
   .rev .stars{color:#E8A33D;font-size:12px;letter-spacing:.08em}
   .rev .txt{font-size:13px;color:#4A5468;line-height:1.65;margin:3px 0 0}
@@ -156,44 +161,47 @@
   .count b{color:var(--navy)}
 
   /* 門市資訊 */
-  .info{margin:6px 20px 0;background:#fff;border-radius:var(--radius);padding:16px;
-        box-shadow:0 6px 22px rgba(22,35,61,.08);border:1px solid rgba(22,35,61,.06)}
-  .info .row{display:flex;gap:10px;padding:10px 0;border-bottom:1px dashed rgba(22,35,61,.10);font-size:14.5px}
+  .info{margin:6px 20px 0;background:#fff;border-radius:var(--radius);padding:12px 20px;
+        border:1px solid rgba(37,48,67,.12)}
+  .info .row{display:flex;gap:10px;padding:10px 0;border-bottom:1px dashed rgba(37,48,67,.14);font-size:14.5px}
   .info .row:last-child{border-bottom:0}
+  /* 卡片內的聯絡資訊：不再是卡中卡，只用上方分隔線分組，左右仍留內距 */
+  .info.flat{margin:14px 0 0;background:none;border:0;border-top:1px solid rgba(37,48,67,.14);
+        border-radius:0;padding:4px 4px 0}
   .info .k{flex:0 0 68px;color:var(--muted);font-size:12.5px;padding-top:3px;letter-spacing:.06em}
   .info a{color:var(--navy);text-decoration:none;font-weight:700}
   .info .note{font-size:12.5px;color:var(--muted)}
 
   /* 置頂分享列：滑到哪裡都按得到 */
   .topbar{position:sticky;top:0;z-index:30;padding:12px 20px 10px;
-          background:linear-gradient(180deg,var(--paper) 70%,rgba(245,241,234,.85) 100%)}
+          background:linear-gradient(180deg,var(--paper) 70%,rgba(246,247,249,.85) 100%)}
   .topbar button{width:100%;padding:15px;border:0;border-radius:14px;background:var(--navy);color:#fff;
           font-size:15px;font-weight:800;font-family:inherit;letter-spacing:.06em;
-          box-shadow:0 5px 0 #141C2B, 0 10px 18px rgba(22,35,61,.22), inset 0 1px 0 rgba(255,255,255,.22);
+          box-shadow:0 5px 0 #141C2B, inset 0 1px 0 rgba(255,255,255,.22);
           transform:translateY(0);
           transition:transform .07s ease, box-shadow .07s ease, filter .12s ease}
   .topbar button:active,.topbar button.is-pressed{
           transform:translateY(4px);filter:brightness(1.08);
-          box-shadow:0 1px 0 #141C2B, 0 4px 10px rgba(22,35,61,.18), inset 0 1px 0 rgba(255,255,255,.16)}
-  /* 呼吸提示改成 filter（原本動 box-shadow 會把立體厚度蓋掉） */
+          box-shadow:0 1px 0 #141C2B, inset 0 1px 0 rgba(255,255,255,.16)}
+  /* 呼吸提示只調亮度（原本動 box-shadow 會把立體厚度蓋掉；也不放彩色光暈） */
   .topbar button.hint{animation:pulse 1.6s ease-in-out infinite}
   @keyframes pulse{0%,100%{filter:brightness(1)}
-                   50%{filter:brightness(1.14) drop-shadow(0 0 7px rgba(196,131,90,.55))}}
+                   50%{filter:brightness(1.14)}}
   .share{margin:18px 20px 0}
   .share button{width:100%;padding:16px;border:0;border-radius:14px;background:var(--navy);color:#fff;
         font-size:15px;font-weight:800;font-family:inherit;letter-spacing:.06em;
-        box-shadow:0 5px 0 #141C2B, 0 10px 18px rgba(22,35,61,.22), inset 0 1px 0 rgba(255,255,255,.22);
+        box-shadow:0 5px 0 #141C2B, inset 0 1px 0 rgba(255,255,255,.22);
         transform:translateY(0);
         transition:transform .07s ease, box-shadow .07s ease, filter .12s ease}
   .share button:active,.share button.is-pressed{
         transform:translateY(4px);filter:brightness(1.08);
-        box-shadow:0 1px 0 #141C2B, 0 4px 10px rgba(22,35,61,.18), inset 0 1px 0 rgba(255,255,255,.16)}
+        box-shadow:0 1px 0 #141C2B, inset 0 1px 0 rgba(255,255,255,.16)}
   .tip{font-size:12px;color:var(--muted);text-align:center;margin:10px 20px 0;line-height:1.75}
   #diag{display:none;margin:14px 20px 0;padding:12px 14px;border-radius:12px;background:#12192B;
         color:#8FE3B0;font:12px/1.7 ui-monospace,Menlo,Consolas,monospace;white-space:pre-wrap;word-break:break-all}
   #diag.show{display:block}
   #diag .bad{color:#FF9B8A}
-  footer{text-align:center;font-size:11.5px;color:#9AA1AE;margin:24px 20px 0;line-height:1.9}
+  footer{text-align:center;font-size:11.5px;color:#5F6672;margin:24px 20px 0;line-height:1.9}
   /* ═══ 分享模式：整頁只留一顆大按鈕（點卡片分享鈕進來時） ═══ */
   /* 按鈕固定在畫面最下方：用 flex + sticky，不依賴 position:fixed
      （LINE 內建瀏覽器對 fixed 的處理不一致；flex 的 min-height:100dvh
@@ -232,7 +240,7 @@
           position:sticky;bottom:0;margin-top:auto;z-index:50;width:auto;
           margin-left:-22px;margin-right:-22px;
           padding:14px 22px calc(16px + env(safe-area-inset-bottom));
-          background:linear-gradient(180deg,rgba(245,241,232,.70) 0%,rgba(245,241,232,.97) 45%);
+          background:linear-gradient(180deg,rgba(246,247,249,.70) 0%,rgba(246,247,249,.97) 45%);
           backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
           border-top:1px solid rgba(37,48,67,.10)}
   #shareScreen .ss-bar button{margin:0 auto}
@@ -301,7 +309,7 @@
   <div class="rail" id="rail">
 
     <article class="card">
-      <h3>我們專為<em>誰服務</em></h3>
+      <h2>我們專為<em>誰服務</em></h2>
       <div class="grid6">
         <div><span>🏢</span>上班族</div><div><span>🎓</span>學生</div><div><span>❤️</span>咖啡愛好者</div><div><span>💻</span>自由工作者</div><div><span>👫</span>情侶</div><div><span>👨‍👩‍👧</span>親子</div>
       </div>
@@ -316,33 +324,33 @@
 
     <!-- ═══════════ 3 ═══════════ -->
     <article class="card">
-      <h3>我們能為你做什麼</h3>
+      <h2>我們能為你做什麼</h2>
       <p class="sub">從設計規劃到現場施作，實現空間想像</p>
       <div class="svc">
         <div class="ico">🎨</div>
         <div>
-          <h4>藝術玻璃</h4>
+          <h3>藝術玻璃</h3>
           <div class="tagsm">工藝 · 色彩 · 光影</div>
           <p>結合工藝、色彩與光影，為住宅、商業空間及建築打造獨特的玻璃作品。</p>
         </div>
       </div><div class="svc">
         <div class="ico">🪟</div>
         <div>
-          <h4>空間玻璃</h4>
+          <h3>空間玻璃</h3>
           <div class="tagsm">隔間 · 門窗 · 欄杆</div>
           <p>依空間需求規劃玻璃隔間、門窗、淋浴拉門與欄杆，兼顧美感與實用機能。</p>
         </div>
       </div><div class="svc">
         <div class="ico">🔧</div>
         <div>
-          <h4>工程整合</h4>
+          <h3>工程整合</h3>
           <div class="tagsm">丈量 · 加工 · 安裝</div>
           <p>整合玻璃、鋁框與鐵件，從丈量、加工到安裝，讓尺寸、固定與收邊完整到位。</p>
         </div>
       </div><div class="svc">
         <div class="ico">🧗</div>
         <div>
-          <h4>外牆高空作業</h4>
+          <h3>外牆高空作業</h3>
           <div class="tagsm">檢測 · 修繕 · 防水</div>
           <p>提供外牆檢測、修繕、防水及矽膠更新，依現場條件規劃高空作業方式。</p>
         </div>
@@ -351,7 +359,7 @@
 
     <!-- ═══════════ 4 ═══════════ -->
     <article class="card">
-      <h3>為什麼選擇 <em>山丘</em>？</h3>
+      <h2>為什麼選擇 <em>山丘</em>？</h2>
       <div class="stats">
         <div><b>8 年</b><span>咖啡烘豆經驗</span></div><div><b>3 個</b><span>每日更換單品產區</span></div><div><b>200+</b><span>累積熟客會員</span></div>
       </div>
@@ -363,27 +371,27 @@
 
     <!-- ═══════════ 5 ═══════════ -->
     <article class="card">
-      <h3>工藝藏在<em>細節</em>，新鮮落在實處</h3>
+      <h2>工藝藏在<em>細節</em>，新鮮落在實處</h2>
       <div class="craft">
         <figure>
           <img src="craft1.jpg" alt="手沖工藝｜穩定出杯" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
-          <figcaption><h4>手沖工藝｜穩定出杯</h4><p>水溫、粉水比與注水節奏，讓每一杯味道一致</p></figcaption>
+          <figcaption><h3>手沖工藝｜穩定出杯</h3><p>水溫、粉水比與注水節奏，讓每一杯味道一致</p></figcaption>
         </figure><figure>
           <img src="craft2.jpg" alt="產地選豆｜透明來源" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
-          <figcaption><h4>產地選豆｜透明來源</h4><p>標註產區、處理法與海拔，喝得出來源差異</p></figcaption>
+          <figcaption><h3>產地選豆｜透明來源</h3><p>標註產區、處理法與海拔，喝得出來源差異</p></figcaption>
         </figure><figure>
           <img src="craft3.jpg" alt="新鮮烘焙｜每週兩烘" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
-          <figcaption><h4>新鮮烘焙｜每週兩烘</h4><p>週二、週五烘豆，出爐三天內風味最佳</p></figcaption>
+          <figcaption><h3>新鮮烘焙｜每週兩烘</h3><p>週二、週五烘豆，出爐三天內風味最佳</p></figcaption>
         </figure><figure>
           <img src="craft4.jpg" alt="空間氛圍｜能久坐" onerror="this.outerHTML='<div class=&quot;ph&quot;>照片</div>'">
-          <figcaption><h4>空間氛圍｜能久坐</h4><p>插座、Wi-Fi 與安靜角落，適合工作與閱讀</p></figcaption>
+          <figcaption><h3>空間氛圍｜能久坐</h3><p>插座、Wi-Fi 與安靜角落，適合工作與閱讀</p></figcaption>
         </figure>
       </div>
     </article>
 
     <!-- ═══════════ 6 ═══════════ -->
     <article class="card">
-      <h3>空間與<em>活動</em></h3>
+      <h2>空間與<em>活動</em></h2>
       <p class="sub">實際空間照與活動紀錄（放入 case1~3.jpg）</p>
       <div class="craft">
         <figure>
@@ -398,14 +406,15 @@
 
     <!-- ═══════════ 7 ═══════════ -->
     <article class="card">
-      <h3>歡迎來<em>山丘坐坐</em></h3>
-      <div class="box" style="text-align:center;background:#F5F1E8;border-style:solid">
+      <h2>歡迎來<em>山丘坐坐</em></h2>
+      <!-- 卡片內不再包卡片：CTA 只靠上方分隔線分組（cta_box_bg 不再使用） -->
+      <div class="box" style="text-align:center">
         <p style="margin:0 0 6px;font-weight:800;color:var(--navy);font-size:15px">說說你喜歡的風味</p>
         <p style="margin:0;font-weight:800;color:var(--brown);font-size:15px">LINE 傳給我</p>
         <p style="margin:8px 0 0;font-size:13.5px;color:#4A5468">免費推薦最適合你的豆子</p>
       </div>
 
-      <div class="info" style="margin:14px 0 0;box-shadow:none;padding:0;border:0">
+      <div class="info flat">
         <div class="row"><div class="k">電話</div><div><a href="tel:+886912345678">0912-345-678</a></div></div>
         <div class="row"><div class="k">地址</div><div>台北市大安區永康街12號<br><span class="note">捷運東門站 5 號出口</span></div></div>
         <div class="row"><div class="k">營業時間</div><div class="note">週二～日 10:00-19:00（週一休）</div></div>
