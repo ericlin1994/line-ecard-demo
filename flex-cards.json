@@ -1,6 +1,6 @@
 {
   "type": "flex",
-  "altText": "山丘咖啡｜王小明 Ming 電子名片",
+  "altText": "友泰京玻璃工程｜李柏融 Benson 電子名片",
   "contents": {
     "type": "carousel",
     "contents": [
@@ -21,7 +21,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "山丘咖啡　手沖單品・自家烘焙・甜點・場地租借",
+              "text": "友泰京玻璃工程　藝術玻璃・空間玻璃・工程整合・外牆高空作業",
               "size": "xxs",
               "weight": "regular",
               "color": "#A0AAB8",
@@ -38,122 +38,210 @@
           "layout": "vertical",
           "contents": [
             {
+              "type": "text",
+              "text": "1 / 6",
+              "size": "xxs",
+              "weight": "regular",
+              "color": "#6B7280",
+              "wrap": false,
+              "margin": "none",
+              "align": "center"
+            },
+            {
               "type": "box",
-              "layout": "horizontal",
+              "layout": "vertical",
               "contents": [
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "text",
-                      "text": "📖 說明",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-ig-v3.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "IG 作品",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#485161",
+                        "endColor": "#1D2534"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5E6674",
+                      "action": {
+                        "type": "uri",
+                        "label": "IG 作品",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=ig&u=https%3A%2F%2Fwww.instagram.com%2Ftc_fez_glass_team%2F"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-line-v5.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "LINE",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#CD9774",
+                        "endColor": "#996646"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#D3A385",
+                      "action": {
+                        "type": "uri",
+                        "label": "LINE",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=line&u=https%3A%2F%2Fline.me%2Fti%2Fp%2F%40fez86488989"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-web-v6.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#485161",
+                        "endColor": "#1D2534"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5E6674",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=web&u=https%3A%2F%2Fwww.fezglass.com"
+                      }
                     }
                   ],
-                  "spacing": "none",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#485161",
-                    "endColor": "#1D2534"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5E6674",
-                  "action": {
-                    "type": "uri",
-                    "label": "📖 說明",
-                    "uri": "https://ericlin1994.github.io/line-ecard/"
-                  }
+                  "spacing": "sm"
                 },
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "text",
-                      "text": "💬 聯絡我",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-share-v5.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#485161",
+                        "endColor": "#1D2534"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5E6674",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=tc-fez-glass&src=https%3A%2F%2Fbenson.cardtaiwan.com%2Fflex-cards.json&v=2026-11-12-2118"
+                      }
                     }
                   ],
-                  "spacing": "none",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#CD9774",
-                    "endColor": "#996646"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#D3A385",
-                  "action": {
-                    "type": "uri",
-                    "label": "💬 聯絡我",
-                    "uri": "https://portaly.cc/ericlin92269"
-                  }
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "🛒 購買",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "none",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#485161",
-                    "endColor": "#1D2534"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5E6674",
-                  "action": {
-                    "type": "uri",
-                    "label": "🛒 購買",
-                    "uri": "https://ericlin1994.github.io/line-ecard/#buy"
-                  }
+                  "spacing": "sm"
                 }
               ],
               "spacing": "sm"
             }
           ],
-          "spacing": "none",
+          "spacing": "sm",
           "paddingAll": "10px"
         },
         "hero": {
           "type": "image",
-          "url": "https://ericlin1994.github.io/line-ecard-demo/img/card1.jpg",
+          "url": "https://benson.cardtaiwan.com/img/card1-v7.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
           "action": {
             "type": "uri",
             "label": "開啟名片",
-            "uri": "https://liff.line.me/2011946176-a2549LFU?src=https://ericlin1994.github.io/line-ecard-demo/flex-cards.json&page=https://ericlin1994.github.io/line-ecard-demo/&v=2026-10-01-1200"
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=page&u=https%3A%2F%2Fbenson.cardtaiwan.com%2F"
           }
         }
       },
@@ -174,999 +262,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "我們專為誰服務",
-              "size": "xl",
-              "weight": "bold",
-              "color": "#C4835A",
-              "wrap": true,
-              "margin": "none"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "上班族",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": false,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "8px",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "borderWidth": "1px",
-                      "borderColor": "#C4835A"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "學生",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": false,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "8px",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "borderWidth": "1px",
-                      "borderColor": "#C4835A"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "咖啡愛好者",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": false,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "8px",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "borderWidth": "1px",
-                      "borderColor": "#C4835A"
-                    }
-                  ],
-                  "spacing": "xs"
-                },
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "自由工作者",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": false,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "8px",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "borderWidth": "1px",
-                      "borderColor": "#C4835A"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "情侶",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": false,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "8px",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "borderWidth": "1px",
-                      "borderColor": "#C4835A"
-                    },
-                    {
-                      "type": "box",
-                      "layout": "vertical",
-                      "contents": [
-                        {
-                          "type": "text",
-                          "text": "親子",
-                          "size": "xxs",
-                          "weight": "bold",
-                          "color": "#FFFFFF",
-                          "wrap": false,
-                          "align": "center"
-                        }
-                      ],
-                      "spacing": "none",
-                      "paddingAll": "8px",
-                      "cornerRadius": "100px",
-                      "flex": 1,
-                      "borderWidth": "1px",
-                      "borderColor": "#C4835A"
-                    }
-                  ],
-                  "spacing": "xs"
-                }
-              ],
-              "spacing": "xs",
-              "margin": "md"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
-                {
-                  "type": "text",
-                  "text": "你是不是也遇過這些問題？",
-                  "size": "xs",
-                  "weight": "bold",
-                  "color": "#253043",
-                  "wrap": true,
-                  "margin": "none"
-                },
-                {
-                  "type": "separator",
-                  "margin": "sm",
-                  "color": "#DCD4C5"
-                },
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "📌",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#C4835A",
-                      "wrap": false,
-                      "flex": 1
-                    },
-                    {
-                      "type": "text",
-                      "text": "想喝好咖啡，卻不知道怎麼選豆",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#253043",
-                      "wrap": true,
-                      "margin": "none",
-                      "flex": 6
-                    }
-                  ],
-                  "spacing": "sm",
-                  "margin": "sm"
-                },
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "📌",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#C4835A",
-                      "wrap": false,
-                      "flex": 1
-                    },
-                    {
-                      "type": "text",
-                      "text": "連鎖店喝起來都一樣，沒有記憶點",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#253043",
-                      "wrap": true,
-                      "margin": "none",
-                      "flex": 6
-                    }
-                  ],
-                  "spacing": "sm",
-                  "margin": "sm"
-                },
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "📌",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#C4835A",
-                      "wrap": false,
-                      "flex": 1
-                    },
-                    {
-                      "type": "text",
-                      "text": "想找能久坐工作的安靜空間",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#253043",
-                      "wrap": true,
-                      "margin": "none",
-                      "flex": 6
-                    }
-                  ],
-                  "spacing": "sm",
-                  "margin": "sm"
-                },
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "📌",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#C4835A",
-                      "wrap": false,
-                      "flex": 1
-                    },
-                    {
-                      "type": "text",
-                      "text": "買了豆子回家，卻不知道怎麼沖",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#253043",
-                      "wrap": true,
-                      "margin": "none",
-                      "flex": 6
-                    }
-                  ],
-                  "spacing": "sm",
-                  "margin": "sm"
-                },
-                {
-                  "type": "box",
-                  "layout": "horizontal",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "📌",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#C4835A",
-                      "wrap": false,
-                      "flex": 1
-                    },
-                    {
-                      "type": "text",
-                      "text": "想包場辦活動，不知道能不能配合",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#253043",
-                      "wrap": true,
-                      "margin": "none",
-                      "flex": 6
-                    }
-                  ],
-                  "spacing": "sm",
-                  "margin": "sm"
-                }
-              ],
-              "spacing": "sm",
-              "margin": "md",
-              "paddingAll": "18px",
-              "backgroundColor": "#F5F1E8",
-              "cornerRadius": "20px"
-            }
-          ],
-          "spacing": "md",
-          "paddingAll": "18px",
-          "backgroundColor": "#253043"
-        },
-        "footer": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "📖 說明",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "none",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#485161",
-                    "endColor": "#1D2534"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5E6674",
-                  "action": {
-                    "type": "uri",
-                    "label": "📖 說明",
-                    "uri": "https://ericlin1994.github.io/line-ecard/"
-                  }
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "💬 聯絡我",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "none",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#CD9774",
-                    "endColor": "#996646"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#D3A385",
-                  "action": {
-                    "type": "uri",
-                    "label": "💬 聯絡我",
-                    "uri": "https://portaly.cc/ericlin92269"
-                  }
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "🛒 購買",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "none",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#485161",
-                    "endColor": "#1D2534"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5E6674",
-                  "action": {
-                    "type": "uri",
-                    "label": "🛒 購買",
-                    "uri": "https://ericlin1994.github.io/line-ecard/#buy"
-                  }
-                }
-              ],
-              "spacing": "sm"
-            }
-          ],
-          "spacing": "none",
-          "paddingAll": "10px"
-        }
-      },
-      {
-        "type": "bubble",
-        "size": "mega",
-        "styles": {
-          "body": {
-            "backgroundColor": "#253043"
-          },
-          "footer": {
-            "backgroundColor": "#F5F1E8"
-          }
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "我們能為你做什麼",
-              "size": "xl",
-              "weight": "bold",
-              "color": "#C4835A",
-              "wrap": true,
-              "margin": "none"
-            },
-            {
-              "type": "text",
-              "text": "從設計規劃到現場施作，實現空間想像",
-              "size": "sm",
-              "weight": "regular",
-              "color": "#FFFFFF",
-              "wrap": true,
-              "margin": "xs"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "☕",
-                      "size": "md",
-                      "weight": "regular",
-                      "color": "#C4835A",
-                      "wrap": false,
-                      "margin": "none"
-                    },
-                    {
-                      "type": "text",
-                      "text": "手沖單品",
-                      "size": "sm",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": false,
-                      "margin": "sm"
-                    },
-                    {
-                      "type": "text",
-                      "text": "每日更換三個產區",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#A0AAB8",
-                      "wrap": true,
-                      "margin": "xs"
-                    }
-                  ],
-                  "spacing": "none",
-                  "paddingAll": "16px",
-                  "backgroundColor": "#1E2838",
-                  "cornerRadius": "16px",
-                  "flex": 1
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "🔥",
-                      "size": "md",
-                      "weight": "regular",
-                      "color": "#C4835A",
-                      "wrap": false,
-                      "margin": "none"
-                    },
-                    {
-                      "type": "text",
-                      "text": "自家烘焙",
-                      "size": "sm",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": false,
-                      "margin": "sm"
-                    },
-                    {
-                      "type": "text",
-                      "text": "每週二五新鮮烘豆",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#A0AAB8",
-                      "wrap": true,
-                      "margin": "xs"
-                    }
-                  ],
-                  "spacing": "none",
-                  "paddingAll": "16px",
-                  "backgroundColor": "#1E2838",
-                  "cornerRadius": "16px",
-                  "flex": 1
-                }
-              ],
-              "spacing": "md",
-              "margin": "md"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "🍰",
-                      "size": "md",
-                      "weight": "regular",
-                      "color": "#C4835A",
-                      "wrap": false,
-                      "margin": "none"
-                    },
-                    {
-                      "type": "text",
-                      "text": "甜點輕食",
-                      "size": "sm",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": false,
-                      "margin": "sm"
-                    },
-                    {
-                      "type": "text",
-                      "text": "與在地甜點工作室合作",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#A0AAB8",
-                      "wrap": true,
-                      "margin": "xs"
-                    }
-                  ],
-                  "spacing": "none",
-                  "paddingAll": "16px",
-                  "backgroundColor": "#1E2838",
-                  "cornerRadius": "16px",
-                  "flex": 1
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "🏠",
-                      "size": "md",
-                      "weight": "regular",
-                      "color": "#C4835A",
-                      "wrap": false,
-                      "margin": "none"
-                    },
-                    {
-                      "type": "text",
-                      "text": "場地租借",
-                      "size": "sm",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": false,
-                      "margin": "sm"
-                    },
-                    {
-                      "type": "text",
-                      "text": "包場／活動／拍攝",
-                      "size": "xs",
-                      "weight": "regular",
-                      "color": "#A0AAB8",
-                      "wrap": true,
-                      "margin": "xs"
-                    }
-                  ],
-                  "spacing": "none",
-                  "paddingAll": "16px",
-                  "backgroundColor": "#1E2838",
-                  "cornerRadius": "16px",
-                  "flex": 1
-                }
-              ],
-              "spacing": "md",
-              "margin": "md"
-            }
-          ],
-          "spacing": "md",
-          "paddingAll": "18px",
-          "backgroundColor": "#253043"
-        },
-        "footer": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "📖 說明",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "none",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#485161",
-                    "endColor": "#1D2534"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5E6674",
-                  "action": {
-                    "type": "uri",
-                    "label": "📖 說明",
-                    "uri": "https://ericlin1994.github.io/line-ecard/"
-                  }
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "💬 聯絡我",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "none",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#CD9774",
-                    "endColor": "#996646"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#D3A385",
-                  "action": {
-                    "type": "uri",
-                    "label": "💬 聯絡我",
-                    "uri": "https://portaly.cc/ericlin92269"
-                  }
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "🛒 購買",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "none",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#485161",
-                    "endColor": "#1D2534"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5E6674",
-                  "action": {
-                    "type": "uri",
-                    "label": "🛒 購買",
-                    "uri": "https://ericlin1994.github.io/line-ecard/#buy"
-                  }
-                }
-              ],
-              "spacing": "sm"
-            }
-          ],
-          "spacing": "none",
-          "paddingAll": "10px"
-        }
-      },
-      {
-        "type": "bubble",
-        "size": "mega",
-        "styles": {
-          "body": {
-            "backgroundColor": "#253043"
-          },
-          "footer": {
-            "backgroundColor": "#F5F1E8"
-          }
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "為什麼選擇山丘？",
-              "size": "xl",
-              "weight": "bold",
-              "color": "#C4835A",
-              "wrap": true,
-              "margin": "none"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "text",
-                  "text": "8",
-                  "size": "4xl",
-                  "weight": "bold",
-                  "color": "#C4835A",
-                  "wrap": false,
-                  "flex": 2
-                },
-                {
-                  "type": "text",
-                  "text": "年咖啡烘豆\n經驗",
-                  "size": "sm",
-                  "weight": "bold",
-                  "color": "#FFFFFF",
-                  "wrap": true,
-                  "margin": "none",
-                  "flex": 3
-                }
-              ],
-              "spacing": "md",
-              "margin": "xl",
-              "alignItems": "center"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "text",
-                  "text": "3",
-                  "size": "4xl",
-                  "weight": "bold",
-                  "color": "#C4835A",
-                  "wrap": false,
-                  "flex": 2
-                },
-                {
-                  "type": "text",
-                  "text": "每日更換\n單品產區",
-                  "size": "sm",
-                  "weight": "bold",
-                  "color": "#FFFFFF",
-                  "wrap": true,
-                  "margin": "none",
-                  "flex": 3
-                }
-              ],
-              "spacing": "md",
-              "margin": "md",
-              "alignItems": "center"
-            },
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "text",
-                  "text": "200+",
-                  "size": "4xl",
-                  "weight": "bold",
-                  "color": "#C4835A",
-                  "wrap": false,
-                  "flex": 2
-                },
-                {
-                  "type": "text",
-                  "text": "累積熟客\n會員數",
-                  "size": "sm",
-                  "weight": "bold",
-                  "color": "#FFFFFF",
-                  "wrap": true,
-                  "margin": "none",
-                  "flex": 3
-                }
-              ],
-              "spacing": "md",
-              "margin": "md",
-              "alignItems": "center"
-            }
-          ],
-          "spacing": "md",
-          "paddingAll": "18px",
-          "backgroundColor": "#253043"
-        },
-        "footer": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "📖 說明",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "none",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#485161",
-                    "endColor": "#1D2534"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5E6674",
-                  "action": {
-                    "type": "uri",
-                    "label": "📖 說明",
-                    "uri": "https://ericlin1994.github.io/line-ecard/"
-                  }
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "💬 聯絡我",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "none",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#CD9774",
-                    "endColor": "#996646"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#D3A385",
-                  "action": {
-                    "type": "uri",
-                    "label": "💬 聯絡我",
-                    "uri": "https://portaly.cc/ericlin92269"
-                  }
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "🛒 購買",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "none",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#485161",
-                    "endColor": "#1D2534"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5E6674",
-                  "action": {
-                    "type": "uri",
-                    "label": "🛒 購買",
-                    "uri": "https://ericlin1994.github.io/line-ecard/#buy"
-                  }
-                }
-              ],
-              "spacing": "sm"
-            }
-          ],
-          "spacing": "none",
-          "paddingAll": "10px"
-        }
-      },
-      {
-        "type": "bubble",
-        "size": "mega",
-        "styles": {
-          "body": {
-            "backgroundColor": "#253043"
-          },
-          "footer": {
-            "backgroundColor": "#F5F1E8"
-          }
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "手沖工藝・產地選豆・新鮮烘焙・空間氛圍",
+              "text": "設計師・建築師・建商・營造・商空・住宅",
               "size": "xxs",
               "weight": "regular",
               "color": "#A0AAB8",
@@ -1183,122 +279,933 @@
           "layout": "vertical",
           "contents": [
             {
+              "type": "text",
+              "text": "2 / 6",
+              "size": "xxs",
+              "weight": "regular",
+              "color": "#6B7280",
+              "wrap": false,
+              "margin": "none",
+              "align": "center"
+            },
+            {
               "type": "box",
-              "layout": "horizontal",
+              "layout": "vertical",
               "contents": [
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "text",
-                      "text": "📖 說明",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-ig-v3.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "IG 作品",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#485161",
+                        "endColor": "#1D2534"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5E6674",
+                      "action": {
+                        "type": "uri",
+                        "label": "IG 作品",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=ig&u=https%3A%2F%2Fwww.instagram.com%2Ftc_fez_glass_team%2F"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-line-v5.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "LINE",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#CD9774",
+                        "endColor": "#996646"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#D3A385",
+                      "action": {
+                        "type": "uri",
+                        "label": "LINE",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=line&u=https%3A%2F%2Fline.me%2Fti%2Fp%2F%40fez86488989"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-web-v6.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#485161",
+                        "endColor": "#1D2534"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5E6674",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=web&u=https%3A%2F%2Fwww.fezglass.com"
+                      }
                     }
                   ],
-                  "spacing": "none",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#485161",
-                    "endColor": "#1D2534"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5E6674",
-                  "action": {
-                    "type": "uri",
-                    "label": "📖 說明",
-                    "uri": "https://ericlin1994.github.io/line-ecard/"
-                  }
+                  "spacing": "sm"
                 },
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "text",
-                      "text": "💬 聯絡我",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-share-v5.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#485161",
+                        "endColor": "#1D2534"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5E6674",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=tc-fez-glass&src=https%3A%2F%2Fbenson.cardtaiwan.com%2Fflex-cards.json&v=2026-11-12-2118"
+                      }
                     }
                   ],
-                  "spacing": "none",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#CD9774",
-                    "endColor": "#996646"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#D3A385",
-                  "action": {
-                    "type": "uri",
-                    "label": "💬 聯絡我",
-                    "uri": "https://portaly.cc/ericlin92269"
-                  }
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "text",
-                      "text": "🛒 購買",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "none",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#485161",
-                    "endColor": "#1D2534"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5E6674",
-                  "action": {
-                    "type": "uri",
-                    "label": "🛒 購買",
-                    "uri": "https://ericlin1994.github.io/line-ecard/#buy"
-                  }
+                  "spacing": "sm"
                 }
               ],
               "spacing": "sm"
             }
           ],
-          "spacing": "none",
+          "spacing": "sm",
           "paddingAll": "10px"
         },
         "hero": {
           "type": "image",
-          "url": "https://ericlin1994.github.io/line-ecard-demo/img/card5.jpg",
+          "url": "https://benson.cardtaiwan.com/img/card2-v1.jpg",
           "size": "full",
           "aspectRatio": "3:4",
           "aspectMode": "cover",
           "action": {
             "type": "uri",
             "label": "開啟名片",
-            "uri": "https://liff.line.me/2011946176-a2549LFU?src=https://ericlin1994.github.io/line-ecard-demo/flex-cards.json&page=https://ericlin1994.github.io/line-ecard-demo/&v=2026-10-01-1200"
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=page&u=https%3A%2F%2Fbenson.cardtaiwan.com%2F"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#253043"
+          },
+          "footer": {
+            "backgroundColor": "#F5F1E8"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "藝術玻璃・空間玻璃・工程整合・外牆高空作業",
+              "size": "xxs",
+              "weight": "regular",
+              "color": "#A0AAB8",
+              "wrap": true,
+              "margin": "none"
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "14px",
+          "backgroundColor": "#253043"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "3 / 6",
+              "size": "xxs",
+              "weight": "regular",
+              "color": "#6B7280",
+              "wrap": false,
+              "margin": "none",
+              "align": "center"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-ig-v3.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "IG 作品",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#485161",
+                        "endColor": "#1D2534"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5E6674",
+                      "action": {
+                        "type": "uri",
+                        "label": "IG 作品",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=ig&u=https%3A%2F%2Fwww.instagram.com%2Ftc_fez_glass_team%2F"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-line-v5.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "LINE",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#CD9774",
+                        "endColor": "#996646"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#D3A385",
+                      "action": {
+                        "type": "uri",
+                        "label": "LINE",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=line&u=https%3A%2F%2Fline.me%2Fti%2Fp%2F%40fez86488989"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-web-v6.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#485161",
+                        "endColor": "#1D2534"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5E6674",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=web&u=https%3A%2F%2Fwww.fezglass.com"
+                      }
+                    }
+                  ],
+                  "spacing": "sm"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-share-v5.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#485161",
+                        "endColor": "#1D2534"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5E6674",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=tc-fez-glass&src=https%3A%2F%2Fbenson.cardtaiwan.com%2Fflex-cards.json&v=2026-11-12-2118"
+                      }
+                    }
+                  ],
+                  "spacing": "sm"
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "10px"
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://benson.cardtaiwan.com/img/card3-v1.jpg",
+          "size": "full",
+          "aspectRatio": "3:4",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=page&u=https%3A%2F%2Fbenson.cardtaiwan.com%2F"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#253043"
+          },
+          "footer": {
+            "backgroundColor": "#F5F1E8"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "50+ 年經驗・3 代工藝傳承・4 大服務項目",
+              "size": "xxs",
+              "weight": "regular",
+              "color": "#A0AAB8",
+              "wrap": true,
+              "margin": "none"
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "14px",
+          "backgroundColor": "#253043"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "4 / 6",
+              "size": "xxs",
+              "weight": "regular",
+              "color": "#6B7280",
+              "wrap": false,
+              "margin": "none",
+              "align": "center"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-ig-v3.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "IG 作品",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#485161",
+                        "endColor": "#1D2534"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5E6674",
+                      "action": {
+                        "type": "uri",
+                        "label": "IG 作品",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=ig&u=https%3A%2F%2Fwww.instagram.com%2Ftc_fez_glass_team%2F"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-line-v5.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "LINE",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#CD9774",
+                        "endColor": "#996646"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#D3A385",
+                      "action": {
+                        "type": "uri",
+                        "label": "LINE",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=line&u=https%3A%2F%2Fline.me%2Fti%2Fp%2F%40fez86488989"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-web-v6.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#485161",
+                        "endColor": "#1D2534"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5E6674",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=web&u=https%3A%2F%2Fwww.fezglass.com"
+                      }
+                    }
+                  ],
+                  "spacing": "sm"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-share-v5.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#485161",
+                        "endColor": "#1D2534"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5E6674",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=tc-fez-glass&src=https%3A%2F%2Fbenson.cardtaiwan.com%2Fflex-cards.json&v=2026-11-12-2118"
+                      }
+                    }
+                  ],
+                  "spacing": "sm"
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "10px"
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://benson.cardtaiwan.com/img/card4-v2.jpg",
+          "size": "full",
+          "aspectRatio": "3:4",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=page&u=https%3A%2F%2Fbenson.cardtaiwan.com%2F"
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "mega",
+        "styles": {
+          "body": {
+            "backgroundColor": "#253043"
+          },
+          "footer": {
+            "backgroundColor": "#F5F1E8"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "藝術工藝・機能選材・精準加工・立體雕刻",
+              "size": "xxs",
+              "weight": "regular",
+              "color": "#A0AAB8",
+              "wrap": true,
+              "margin": "none"
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "14px",
+          "backgroundColor": "#253043"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "5 / 6",
+              "size": "xxs",
+              "weight": "regular",
+              "color": "#6B7280",
+              "wrap": false,
+              "margin": "none",
+              "align": "center"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-ig-v3.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "IG 作品",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#485161",
+                        "endColor": "#1D2534"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5E6674",
+                      "action": {
+                        "type": "uri",
+                        "label": "IG 作品",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=ig&u=https%3A%2F%2Fwww.instagram.com%2Ftc_fez_glass_team%2F"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-line-v5.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "LINE",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#CD9774",
+                        "endColor": "#996646"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#D3A385",
+                      "action": {
+                        "type": "uri",
+                        "label": "LINE",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=line&u=https%3A%2F%2Fline.me%2Fti%2Fp%2F%40fez86488989"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-web-v6.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#485161",
+                        "endColor": "#1D2534"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5E6674",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=web&u=https%3A%2F%2Fwww.fezglass.com"
+                      }
+                    }
+                  ],
+                  "spacing": "sm"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-share-v5.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#485161",
+                        "endColor": "#1D2534"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5E6674",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=tc-fez-glass&src=https%3A%2F%2Fbenson.cardtaiwan.com%2Fflex-cards.json&v=2026-11-12-2118"
+                      }
+                    }
+                  ],
+                  "spacing": "sm"
+                }
+              ],
+              "spacing": "sm"
+            }
+          ],
+          "spacing": "sm",
+          "paddingAll": "10px"
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://benson.cardtaiwan.com/img/card5-v9.jpg",
+          "size": "full",
+          "aspectRatio": "3:4",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "label": "開啟名片",
+            "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=page&u=https%3A%2F%2Fbenson.cardtaiwan.com%2F"
           }
         }
       },
@@ -1319,7 +1226,7 @@
           "contents": [
             {
               "type": "text",
-              "text": "歡迎來山丘坐坐",
+              "text": "讓我們聊聊你的空間",
               "size": "xl",
               "weight": "bold",
               "color": "#253043",
@@ -1328,7 +1235,7 @@
             },
             {
               "type": "text",
-              "text": "說說你喜歡的風味，LINE 傳給我推薦豆子",
+              "text": "拍下現場照片＋尺寸，LINE 傳給我免費評估",
               "size": "xs",
               "weight": "bold",
               "color": "#C4835A",
@@ -1346,7 +1253,7 @@
                     {
                       "type": "text",
                       "text": "📞",
-                      "size": "sm",
+                      "size": "lg",
                       "weight": "regular",
                       "color": "#C4835A",
                       "wrap": false,
@@ -1354,17 +1261,22 @@
                     },
                     {
                       "type": "text",
-                      "text": "0912-345-678",
-                      "size": "sm",
+                      "text": "0938-111-822",
+                      "size": "md",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
                       "margin": "none",
-                      "flex": 6
+                      "flex": 7
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "sm"
+                  "margin": "none"
+                },
+                {
+                  "type": "separator",
+                  "margin": "lg",
+                  "color": "#3A465C"
                 },
                 {
                   "type": "box",
@@ -1373,7 +1285,7 @@
                     {
                       "type": "text",
                       "text": "💬",
-                      "size": "sm",
+                      "size": "lg",
                       "weight": "regular",
                       "color": "#C4835A",
                       "wrap": false,
@@ -1381,17 +1293,54 @@
                     },
                     {
                       "type": "text",
-                      "text": "LINE：@hillcafe",
-                      "size": "sm",
+                      "text": "@fez86488989",
+                      "size": "md",
                       "weight": "bold",
                       "color": "#FFFFFF",
                       "wrap": true,
                       "margin": "none",
-                      "flex": 6
+                      "flex": 7
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "sm"
+                  "margin": "none"
+                },
+                {
+                  "type": "separator",
+                  "margin": "lg",
+                  "color": "#3A465C"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "✉️",
+                      "size": "lg",
+                      "weight": "regular",
+                      "color": "#C4835A",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "tc.glass555@gmail.com",
+                      "size": "md",
+                      "weight": "regular",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 7
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "none"
+                },
+                {
+                  "type": "separator",
+                  "margin": "lg",
+                  "color": "#3A465C"
                 },
                 {
                   "type": "box",
@@ -1400,7 +1349,7 @@
                     {
                       "type": "text",
                       "text": "📍",
-                      "size": "sm",
+                      "size": "lg",
                       "weight": "regular",
                       "color": "#C4835A",
                       "wrap": false,
@@ -1408,17 +1357,22 @@
                     },
                     {
                       "type": "text",
-                      "text": "台北市大安區永康街12號（捷運東門站 5 號出口）",
-                      "size": "xs",
+                      "text": "新北市中和區連城路518巷8號（中和高中旁巷）",
+                      "size": "md",
                       "weight": "regular",
                       "color": "#FFFFFF",
                       "wrap": true,
                       "margin": "none",
-                      "flex": 6
+                      "flex": 7
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "sm"
+                  "margin": "none"
+                },
+                {
+                  "type": "separator",
+                  "margin": "lg",
+                  "color": "#3A465C"
                 },
                 {
                   "type": "box",
@@ -1427,7 +1381,7 @@
                     {
                       "type": "text",
                       "text": "⏰",
-                      "size": "sm",
+                      "size": "lg",
                       "weight": "regular",
                       "color": "#C4835A",
                       "wrap": false,
@@ -1435,34 +1389,57 @@
                     },
                     {
                       "type": "text",
-                      "text": "週二～日 10:00-19:00（週一休）",
-                      "size": "xs",
+                      "text": "週一～五 08:00-17:00",
+                      "size": "md",
                       "weight": "regular",
                       "color": "#FFFFFF",
                       "wrap": true,
                       "margin": "none",
-                      "flex": 6
+                      "flex": 7
                     }
                   ],
                   "spacing": "sm",
-                  "margin": "sm"
+                  "margin": "none"
+                },
+                {
+                  "type": "separator",
+                  "margin": "lg",
+                  "color": "#3A465C"
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "🏢",
+                      "size": "lg",
+                      "weight": "regular",
+                      "color": "#C4835A",
+                      "wrap": false,
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "統編 90746796",
+                      "size": "md",
+                      "weight": "regular",
+                      "color": "#FFFFFF",
+                      "wrap": true,
+                      "margin": "none",
+                      "flex": 7
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "none"
                 }
               ],
-              "spacing": "sm",
+              "spacing": "none",
               "margin": "md",
-              "paddingAll": "18px",
+              "paddingAll": "14px",
               "backgroundColor": "#253043",
               "cornerRadius": "20px"
-            }
-          ],
-          "spacing": "md",
-          "paddingAll": "18px",
-          "backgroundColor": "#F5F1E8"
-        },
-        "footer": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
+            },
             {
               "type": "box",
               "layout": "horizontal",
@@ -1472,40 +1449,16 @@
                   "layout": "vertical",
                   "contents": [
                     {
-                      "type": "text",
-                      "text": "📖 說明",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
-                    }
-                  ],
-                  "spacing": "none",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#485161",
-                    "endColor": "#1D2534"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5E6674",
-                  "action": {
-                    "type": "uri",
-                    "label": "📖 說明",
-                    "uri": "https://ericlin1994.github.io/line-ecard/"
-                  }
-                },
-                {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
+                      "type": "image",
+                      "url": "https://benson.cardtaiwan.com/img/icon-map-v2.png",
+                      "size": "20px",
+                      "aspectRatio": "1:1",
+                      "aspectMode": "cover",
+                      "flex": 0
+                    },
                     {
                       "type": "text",
-                      "text": "💬 聯絡我",
+                      "text": "導航到門市",
                       "size": "xxs",
                       "weight": "bold",
                       "color": "#FFFFFF",
@@ -1513,7 +1466,7 @@
                       "align": "center"
                     }
                   ],
-                  "spacing": "none",
+                  "spacing": "xs",
                   "paddingAll": "10px",
                   "background": {
                     "type": "linearGradient",
@@ -1527,47 +1480,216 @@
                   "borderColor": "#D3A385",
                   "action": {
                     "type": "uri",
-                    "label": "💬 聯絡我",
-                    "uri": "https://portaly.cc/ericlin92269"
+                    "label": "導航到門市",
+                    "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=map&u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%3Fapi%3D1%26query%3D%25E5%258F%258B%25E6%25B3%25B0%25E4%25BA%25AC%25E7%258E%25BB%25E7%2592%2583%25E5%25B7%25A5%25E7%25A8%258B%2520%25E6%2596%25B0%25E5%258C%2597%25E5%25B8%2582%25E4%25B8%25AD%25E5%2592%258C%25E5%258D%2580%25E9%2580%25A3%25E5%259F%258E%25E8%25B7%25AF518%25E5%25B7%25B78%25E8%2599%259F"
                   }
+                }
+              ],
+              "spacing": "none",
+              "margin": "md"
+            }
+          ],
+          "spacing": "lg",
+          "paddingAll": "16px",
+          "backgroundColor": "#F5F1E8"
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "6 / 6",
+              "size": "xxs",
+              "weight": "regular",
+              "color": "#6B7280",
+              "wrap": false,
+              "margin": "none",
+              "align": "center"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-ig-v3.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "IG 作品",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#485161",
+                        "endColor": "#1D2534"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5E6674",
+                      "action": {
+                        "type": "uri",
+                        "label": "IG 作品",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=ig&u=https%3A%2F%2Fwww.instagram.com%2Ftc_fez_glass_team%2F"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-line-v5.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "LINE",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#CD9774",
+                        "endColor": "#996646"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#D3A385",
+                      "action": {
+                        "type": "uri",
+                        "label": "LINE",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=line&u=https%3A%2F%2Fline.me%2Fti%2Fp%2F%40fez86488989"
+                      }
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-web-v6.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "官方網站",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#485161",
+                        "endColor": "#1D2534"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5E6674",
+                      "action": {
+                        "type": "uri",
+                        "label": "官方網站",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?t=1&c=tc-fez-glass&to=web&u=https%3A%2F%2Fwww.fezglass.com"
+                      }
+                    }
+                  ],
+                  "spacing": "sm"
                 },
                 {
                   "type": "box",
-                  "layout": "vertical",
+                  "layout": "horizontal",
                   "contents": [
                     {
-                      "type": "text",
-                      "text": "🛒 購買",
-                      "size": "xxs",
-                      "weight": "bold",
-                      "color": "#FFFFFF",
-                      "wrap": true,
-                      "align": "center"
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "image",
+                          "url": "https://benson.cardtaiwan.com/img/icon-share-v5.png",
+                          "size": "20px",
+                          "aspectRatio": "1:1",
+                          "aspectMode": "cover",
+                          "flex": 0
+                        },
+                        {
+                          "type": "text",
+                          "text": "分享名片",
+                          "size": "xxs",
+                          "weight": "bold",
+                          "color": "#FFFFFF",
+                          "wrap": true,
+                          "align": "center"
+                        }
+                      ],
+                      "spacing": "xs",
+                      "paddingAll": "10px",
+                      "background": {
+                        "type": "linearGradient",
+                        "angle": "90deg",
+                        "startColor": "#485161",
+                        "endColor": "#1D2534"
+                      },
+                      "cornerRadius": "100px",
+                      "flex": 1,
+                      "borderWidth": "1px",
+                      "borderColor": "#5E6674",
+                      "action": {
+                        "type": "uri",
+                        "label": "分享名片",
+                        "uri": "https://liff.line.me/2011946176-OWaDN0zD?share=1&c=tc-fez-glass&src=https%3A%2F%2Fbenson.cardtaiwan.com%2Fflex-cards.json&v=2026-11-12-2118"
+                      }
                     }
                   ],
-                  "spacing": "none",
-                  "paddingAll": "10px",
-                  "background": {
-                    "type": "linearGradient",
-                    "angle": "90deg",
-                    "startColor": "#485161",
-                    "endColor": "#1D2534"
-                  },
-                  "cornerRadius": "100px",
-                  "flex": 1,
-                  "borderWidth": "1px",
-                  "borderColor": "#5E6674",
-                  "action": {
-                    "type": "uri",
-                    "label": "🛒 購買",
-                    "uri": "https://ericlin1994.github.io/line-ecard/#buy"
-                  }
+                  "spacing": "sm"
                 }
               ],
               "spacing": "sm"
             }
           ],
-          "spacing": "none",
+          "spacing": "sm",
           "paddingAll": "10px"
         }
       }
